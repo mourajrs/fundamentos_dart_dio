@@ -3,6 +3,7 @@ import 'dart:io';
 
 import 'package:fundamentos_dart_dio/calculadora.dart';
 import 'package:fundamentos_dart_dio/double.dart';
+import 'package:fundamentos_dart_dio/funcaoPorParametro.dart';
 import 'package:fundamentos_dart_dio/fundamentos_dart_dio.dart' as fundamentos_dart_dio;
 import 'package:fundamentos_dart_dio/inteiros.dart';
 import 'package:fundamentos_dart_dio/list.dart';
@@ -23,6 +24,7 @@ void main(List<String> arguments) {
   print("5 = Operação com Aluno");
   print("6 = Operação com ForIn");
   print("7 = Calculadora");
+  print("8 = Funcao por parâmetro");
 
   stdout.writeln();
 
@@ -52,6 +54,9 @@ void main(List<String> arguments) {
       break;
     case "7":
       visor();
+      break;
+    case "8":
+      funcaoPorParametro();
       break;
     default:
       print("Opção inválida");
