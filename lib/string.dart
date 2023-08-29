@@ -4,11 +4,12 @@ trabalhandoComString() {
   print('Declarações de strings');
   String texto = "Meu texto";
   var texto2 = "Meu texto 2";
+  // ignore: unused_local_variable
   String texto3;
 
   print('Declarando String texto: $texto');
   print('Declarando var texto2:  $texto2');
-  print('Declarando String texto2 não inicializada: retorna non nullable');
+  print('Declarando String texto3 não inicializada: retorna non nullable');
   stdout.writeln();
 
   print('Pegando tamanho da string: ');
